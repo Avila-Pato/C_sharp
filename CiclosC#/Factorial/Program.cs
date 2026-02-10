@@ -12,7 +12,7 @@
 
             for(i = n; i > 0; i--)
             {
-                factorial = factorial * i
+                factorial = factorial * i;
             }
             Console.WriteLine("El factorial de {0} es {1}", n, factorial);
         }

@@ -9,23 +9,24 @@ namespace forIteracion
             int elementoBuscado = 5;
             bool encontrado = false;
 
-            for(int i = 0; i < arreglo.Length; i++)
+            for (int i = 0; i < arreglo.Length; i++)
             {
                 if (arreglo[i] == elementoBuscado)
                 {
                     encontrado = true;
                     break;
                 }
-            
+
             }
-if(encontrado)
+            if (encontrado)
             {
                 Console.WriteLine("El numero {buscar} se encuentra en el array");
             }
-else
+            else
             {
                 Console.WriteLine("El numero {buscar} no se encuentra en el array");
                 Connsole.ReadKey();
             }
+        }
     }
 }
