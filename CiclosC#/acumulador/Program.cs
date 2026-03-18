@@ -16,7 +16,7 @@ namespace acumulador
             num2 = Convert.ToDecimal(Console.ReadLine());
 
             //Operacion
-            resultado = num1 + num2
+            resultado = num1 + num2;
             Console.WriteLine("{0} + {1} = {2}", num1, num2, resultado);
         }
     }
