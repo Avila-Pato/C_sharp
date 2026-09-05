@@ -52,5 +52,17 @@ public class BuscarCadenas
         // ToLower
         string minusculas = parrafo.ToLower();
         Console.WriteLine("La cadena en minusculas es: " + minusculas);
+
+        // ToUpper
+        string mayusculas = parrafo.ToUpper();
+        Console.WriteLine("La cadena en mayusculas es: " + mayusculas);
+
+        // Trim
+        string texto_original = "   Hola Mundo ";
+        string texto_sin_espacios = texto_original.Trim();
+        Console.WriteLine("Texto original: '" + texto_original + "'");
+
+        
+
     }
 }
