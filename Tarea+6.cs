@@ -147,3 +147,4 @@ static void Main(string[] args)
 
 //git local para dektop
 
+//gill pull remoto
