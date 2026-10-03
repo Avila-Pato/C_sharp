@@ -149,4 +149,6 @@ static void Main(string[] args)
 
 //gill pull remoto
 
+//git pull para last text
+
 //Estados modificado dentro de visual studio
